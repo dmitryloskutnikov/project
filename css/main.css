@@ -185,7 +185,7 @@ a {
 }
 
 .footer-icons-row { 
-  margin: 20px 0;
+  margin: 19px 0;
   display: flex;
   align-items: center;
 }
@@ -195,8 +195,8 @@ a {
 }
 
 .footer-contacts {
-  max-width: 352px;
-  padding-top: 10px;
+  max-width: 350px;
+  padding-top: 0px;
 }
 
 .footer-button {
@@ -213,6 +213,12 @@ a {
   line-height: 44px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.footer-button:hover {
+  background-color: #FFFFFF;
+  color: #1E4776;
 }
 
 .footer-contacts p {
@@ -264,4 +270,10 @@ a {
   line-height: 54px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.project-btn-back:hover {
+  background-color: #275BEC;
+  color: #ffffff;
 }
